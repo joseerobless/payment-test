@@ -1,0 +1,385 @@
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js!./src/components/paymentEstimator/styles/chevrolet.scss ***!
+  \****************************************************************************************************************************************************************************/
+.cv-pe-tabs,
+.cv-pe-tabs__panel--selected {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.cv-pe-tabs__tablist {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-pe-tabs__tab {
+  padding: 20px;
+  text-align: center;
+}
+
+.cv-pe-tabs__tab:not(.cv-pe__tab--active) {
+  cursor: pointer;
+}
+
+.cv-pe-selector__container {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.cv-pe-selector__details-container {
+  padding-left: 20px;
+  width: 66.66%;
+}
+
+.cv-pe-selector__header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv-pe-dropdown-container {
+  column-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+}
+
+.cv-pe-dropdown__selection {
+  padding: 10px;
+}
+
+.cv-pe-dropdown__label {
+  min-width: 250px;
+}
+
+.cv-pe-cta__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 20px;
+  row-gap: 20px;
+}
+
+.cv-pe-payment__row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.cv-pe-payment__row-label-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-pe-payment__row {
+  padding-top: 20px;
+}
+
+.cv-pe-payment__title {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.tabs-content {
+  border: 0;
+}
+
+.cv-pe-finance-container,
+.cv-pe-lease-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.payment-adjust__title {
+  padding: 10px;
+  width: 100vw;
+}
+
+.payment-adjust__options-finance-details {
+  margin-bottom: 20px;
+  width: 29%;
+}
+
+.payment-adjust__finance-details {
+  width: rem-calc(360px);
+}
+
+.payment-adjust__lease-details {
+  width: 33%;
+}
+
+.cv-pe-payment-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+@media (min-width: 960px) {
+  .cv-pe-payment-container {
+    flex-direction: row;
+  }
+}
+
+.cv-pe-payment__payment-inner {
+  padding: 20px;
+}
+
+.cv-pe-payment__payment-container {
+  margin-bottom: 20px;
+  width: 29%;
+}
+@media (min-width: 960px) {
+  .cv-pe-payment__payment-container {
+    margin-bottom: 0;
+  }
+}
+
+.cv-pe-payment__row-label {
+  align-self: center;
+}
+
+.cv-pe-payment__total-down-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.payment-adjust__single-container {
+  flex: none;
+  width: 100%;
+}
+
+.finance-content {
+  padding: 20px;
+}
+
+.payment-adjust__container-details {
+  display: flex;
+  flex: 2;
+}
+
+.payment-adjust__vehicle-string-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-adjust__vehicle-price {
+  align-items: flex-end;
+  display: flex;
+}
+
+.payment-adjust__header-margin-msrp {
+  margin-right: 5px;
+}
+
+.cv-pe-grid-tabs {
+  display: grid;
+  flex-grow: 1;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+@media (min-width: 1200px) {
+  .payment-adjust__single-container {
+    flex: 1;
+  }
+
+  .payment-adjust__title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .cv-pe-payment__container {
+    flex-direction: row;
+    padding: 20px;
+  }
+}
+.cv-input {
+  margin-bottom: 0;
+  margin-left: 5px;
+  padding: 10px;
+  text-align: right;
+  width: 66.66%;
+}
+
+.cv-pe-payment__payment-container {
+  background-color: #f2f2f2;
+}
+
+@media (min-width: 960px) {
+  .cv-pe-finance-container,
+.cv-pe-lease-container {
+    border-bottom: 1px solid #b3b3b3;
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #b3b3b3;
+  }
+}
+.cv-pe-finance__payment,
+.cv-pe-lease__payment {
+  font-family: Louis, Tahoma, sans-serif;
+  color: #262626;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  line-height: 3rem;
+}
+.cv-pe-finance__payment-term {
+  font-family: Louis, Tahoma, sans-serif;
+  color: #262626;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 1.333rem;
+  letter-spacing: normal;
+  line-height: 1.6rem;
+}
+.cv-pe-finance__payment-term:hover {
+  color: #cd9834;
+}
+
+.cv-pe-finance__amount {
+  font-family: Roboto, Helvetica, sans-serif;
+  color: #262626;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 0.9rem;
+  letter-spacing: normal;
+  line-height: 1.5rem;
+}
+.cv-pe-payment__title {
+  font-family: Roboto, Helvetica, sans-serif;
+  color: #262626;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 0.9rem;
+  letter-spacing: normal;
+  line-height: 1.5rem;
+}
+.cv-pe-payment__row {
+  font-family: Roboto, Helvetica, sans-serif;
+  color: #262626;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 0.7rem;
+  letter-spacing: normal;
+  line-height: 1.375rem;
+  text-decoration: none;
+}
+.cv-pe-payment__row:visited, .cv-pe-payment__row:hover, .cv-pe-payment__row:active {
+  color: none;
+  text-decoration: none;
+}
+
+.cv-pe-payment__row-unit {
+  font-family: Louis, Tahoma, sans-serif;
+  color: #6e6e6e;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  line-height: 1.333rem;
+}
+.cv-pe-payment__link {
+  font-family: Roboto, Helvetica, sans-serif;
+  color: #6e6e6e;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 0.8rem;
+  letter-spacing: normal;
+  line-height: 1.25rem;
+}
+.cv-pe-payment__link:hover, .cv-pe-payment__link:active {
+  color: #cd9834;
+  text-decoration: underline;
+}
+.cv-pe-payment__link:hover {
+  color: #cd9834;
+}
+
+.cv-pe-payment__total-down-container {
+  font-family: Roboto, Helvetica, sans-serif;
+  color: #262626;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 0.9rem;
+  letter-spacing: normal;
+  line-height: 1.5rem;
+}
+.cv-pe-tabs__tab {
+  background-color: #f2f2f2;
+  border: 1px solid #b3b3b3;
+  color: #808080;
+  flex: 1;
+  font-size: 0.75rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+}
+
+.cv-pe-tabs__tab--active,
+.cv-pe-tabs__tab:hover,
+.cv-pe-tabs__tab:focus {
+  background-color: #fff;
+}
+
+.cv-pe-tabs__tab:hover,
+.cv-pe-tabs__tab:focus {
+  color: #262626;
+}
+
+.cv-pe-tabs__tab-label {
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid transparent;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.cv-pe-tabs__tab--active .cv-pe-tabs__tab-label {
+  border-bottom-color: #cd9834;
+}
+
+.cv-pe-selector__header {
+  font-family: Louis, Tahoma, sans-serif;
+  color: #262626;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  line-height: 3rem;
+}
+.cv-pe-selector__description {
+  font-family: Roboto, Helvetica, sans-serif;
+  color: #262626;
+  font-weight: normal;
+  text-transform: none;
+  font-size: 0.9rem;
+  letter-spacing: normal;
+  line-height: 1.5rem;
+}
+.cv-pe-dropdown__label {
+  font-family: Louis, Tahoma, sans-serif;
+  color: #6e6e6e;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  line-height: 1.333rem;
+}
+.cv-pe-dropdown__selection {
+  font-family: Louis, Tahoma, sans-serif;
+  color: #262626;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  line-height: 1.333rem;
+}
